@@ -1,0 +1,10 @@
+{
+  "name": "im-services-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/im-services-e2e/src",
+  "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["im-services"],
+  "// targets": "to see all targets run: nx show project im-services-e2e --web",
+  "targets": {}
+}
