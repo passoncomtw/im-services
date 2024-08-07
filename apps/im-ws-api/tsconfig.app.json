@@ -5,6 +5,12 @@
     "module": "commonjs",
     "types": ["node", "express"]
   },
-  "exclude": ["jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"],
-  "include": ["src/**/*.ts"]
+  "exclude": [
+    "jest.config.ts",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
+    "src/**/*.spec.js",
+    "src/**/*.test.js"
+  ],
+  "include": ["src/**/*.ts", "src/**/*.js"]
 }

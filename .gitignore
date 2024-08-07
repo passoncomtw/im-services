@@ -58,3 +58,4 @@ cache/
 
 
 apps/im-services-e2e/artifacts
+.env
